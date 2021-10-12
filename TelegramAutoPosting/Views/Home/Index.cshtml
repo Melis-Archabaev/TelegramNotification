@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <form asp-action="Index" asp-controller="Home" method="post">
+        <label style="font-weight:600;font-size:15px;">Text:</label>
+        <input class="form-control col-3" type="text" name="text" />
+        <br />
+        <input type="submit" value="Send" />
+    </form>
+</div>
